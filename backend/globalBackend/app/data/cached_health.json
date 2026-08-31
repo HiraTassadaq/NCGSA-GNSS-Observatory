@@ -1,0 +1,128 @@
+{
+  "28899": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "INMARSAT 4-F2 (SOUTHPAN/PRN 122)",
+    "source": "celestrak_satcat"
+  },
+  "37605": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "GSAT-8 (GAGAN/PRN 127)",
+    "source": "celestrak_satcat"
+  },
+  "37951": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "LUCH 5A (SDCM/PRN 140)",
+    "source": "celestrak_satcat"
+  },
+  "38652": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "SES-5 (EGNOS/PRN 136)",
+    "source": "celestrak_satcat"
+  },
+  "38779": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "GSAT-10 (GAGAN/PRN 128)",
+    "source": "celestrak_satcat"
+  },
+  "38977": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "LUCH 5B (SDCM/PRN 125)",
+    "source": "celestrak_satcat"
+  },
+  "39617": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "ASTRA 5B (EGNOS/PRN 123)",
+    "source": "celestrak_satcat"
+  },
+  "39727": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "LUCH 5V (SDCM/PRN 141)",
+    "source": "celestrak_satcat"
+  },
+  "41028": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "GSAT-15 (GAGAN/PRN 139)",
+    "source": "celestrak_satcat"
+  },
+  "41589": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "EUTELSAT 117 WEST B (WAAS/PRN 131)",
+    "source": "celestrak_satcat"
+  },
+  "42709": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "SES-15 (WAAS/PRN 133)",
+    "source": "celestrak_satcat"
+  },
+  "42738": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "QZS-2 (QZSS/PRN 194)",
+    "source": "celestrak_satcat"
+  },
+  "42917": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "QZS-3 (QZSS/PRN 199)",
+    "source": "celestrak_satcat"
+  },
+  "42965": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "QZS-4 (QZSS/PRN 195)",
+    "source": "celestrak_satcat"
+  },
+  "43683": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "BEIDOU-3 G1 (PRN 130)",
+    "source": "celestrak_satcat"
+  },
+  "44624": {
+    "status": "active",
+    "ops_status_code": "P",
+    "object_name": "EUTELSAT 5 WEST B (EGNOS/PRN 121)",
+    "source": "celestrak_satcat"
+  },
+  "45344": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "BEIDOU-3 G2 (PRN 144)",
+    "source": "celestrak_satcat"
+  },
+  "45807": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "BEIDOU-3 G3 (PRN 143)",
+    "source": "celestrak_satcat"
+  },
+  "46114": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "GALAXY 30 (WAAS/PRN 135)",
+    "source": "celestrak_satcat"
+  },
+  "49336": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "QZS-1R (QZSS/PRN 196)",
+    "source": "celestrak_satcat"
+  },
+  "62876": {
+    "status": "active",
+    "ops_status_code": "+",
+    "object_name": "QZS-6 (QZSS/PRN 200)",
+    "source": "celestrak_satcat"
+  }
+}

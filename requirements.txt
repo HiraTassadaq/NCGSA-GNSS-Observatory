@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+sgp4
+numpy
+requests
+pynmea2
+python-multipart

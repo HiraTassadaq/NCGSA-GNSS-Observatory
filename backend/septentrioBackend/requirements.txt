@@ -1,0 +1,6 @@
+pysbf2
+pyserial
+pandas
+openpyxl
+supabase
+python-dotenv

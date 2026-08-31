@@ -1,0 +1,310 @@
+/* =========================================================
+   NCGSA SPACE WEATHER OBSERVATORY FOOTER
+   ========================================================= */
+
+.gnss-footer {
+  position: relative;
+  width: 100%;
+  background: #020b14;
+  color: #e2e8f0;
+  border-top: 1px solid rgba(56, 189, 248, 0.16);
+  font-family: 'Outfit', 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: hidden;
+}
+
+/* =========================================================
+   TOP LOGOS SECTION
+   ========================================================= */
+
+.gnss-footer-logos {
+  max-width: 1480px;
+  margin: 0 auto;
+  min-height: 100px;
+  padding: 20px 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.16);
+}
+
+.gnss-footer-logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+.gnss-footer-logo-item img {
+  max-width: 140px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.15));
+  opacity: 0.9;
+  transition: all 0.25s ease;
+}
+
+.gnss-footer-logo-item:hover img {
+  opacity: 1;
+  transform: translateY(-2px);
+  filter: drop-shadow(0 0 14px rgba(56, 189, 248, 0.35));
+}
+
+.gnss-footer-logo-divider {
+  width: 1px;
+  height: 52px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(56, 189, 248, 0.22),
+    transparent
+  );
+}
+
+/* =========================================================
+   MAIN FOOTER GRID
+   ========================================================= */
+
+.gnss-footer-main {
+  max-width: 1480px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.15fr 1.15fr 1.35fr;
+  min-height: 240px;
+}
+
+/* =========================================================
+   COLUMNS
+   ========================================================= */
+
+.gnss-footer-brand {
+  padding: 36px 32px 36px 4%;
+}
+
+.gnss-footer-organization {
+  padding: 36px 32px;
+  border-left: 1px solid rgba(56, 189, 248, 0.14);
+}
+
+.gnss-footer-explore {
+  padding: 36px 4% 36px 32px;
+  border-left: 1px solid rgba(56, 189, 248, 0.14);
+}
+
+/* =========================================================
+   TYPOGRAPHY & KICKERS
+   ========================================================= */
+
+.gnss-footer-kicker {
+  font-family: 'JetBrains Mono', 'DM Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  color: #38bdf8;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.gnss-footer-brand h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 0 0 12px;
+  letter-spacing: -0.02em;
+}
+
+.gnss-footer-title-line {
+  width: 46px;
+  height: 2px;
+  background: linear-gradient(90deg, #38bdf8, transparent);
+  margin-bottom: 18px;
+}
+
+.gnss-footer-subkicker {
+  font-family: 'JetBrains Mono', 'DM Mono', monospace;
+  font-size: 9.5px;
+  font-weight: 700;
+  color: #38bdf8;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+/* =========================================================
+   PILL BUTTONS (LINKEDIN / WEBSITE)
+   ========================================================= */
+
+.gnss-footer-pills {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.gnss-footer-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.gnss-pill-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(56, 189, 248, 0.4);
+  background: rgba(56, 189, 248, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #38bdf8;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.08);
+  transition: all 0.25s ease;
+}
+
+.gnss-footer-pill-btn:hover {
+  color: #ffffff;
+}
+
+.gnss-footer-pill-btn:hover .gnss-pill-icon {
+  background: rgba(56, 189, 248, 0.2);
+  border-color: #38bdf8;
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.35);
+  transform: scale(1.06);
+}
+
+/* =========================================================
+   ADDRESS & PHONE (COLUMN 2)
+   ========================================================= */
+
+.gnss-footer-address-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  color: #cbd5e1;
+  font-size: 13.5px;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.gnss-info-icon {
+  color: #38bdf8;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* =========================================================
+   EXPLORE SECTION (COLUMN 3)
+   ========================================================= */
+
+.gnss-footer-explore-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 28px;
+}
+
+.gnss-footer-explore-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.gnss-explore-link {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: #cbd5e1;
+  border-bottom: 1px solid rgba(56, 189, 248, 0.16);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.gnss-explore-link:hover {
+  color: #38bdf8;
+  border-bottom-color: #38bdf8;
+  padding-left: 4px;
+}
+
+.gnss-explore-link svg {
+  color: #38bdf8;
+  flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.gnss-explore-link:hover svg {
+  transform: translateX(4px);
+}
+
+/* =========================================================
+   BOTTOM BAR
+   ========================================================= */
+
+.gnss-footer-bottom {
+  max-width: 1480px;
+  margin: 0 auto;
+  border-top: 1px solid rgba(56, 189, 248, 0.16);
+  padding: 18px 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gnss-footer-copy {
+  margin: 0;
+  font-size: 12.5px;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+/* =========================================================
+   RESPONSIVE DESIGN
+   ========================================================= */
+
+@media (max-width: 1024px) {
+  .gnss-footer-main {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gnss-footer-explore {
+    grid-column: 1 / -1;
+    border-left: none;
+    border-top: 1px solid rgba(56, 189, 248, 0.14);
+    padding-left: 4%;
+  }
+}
+
+@media (max-width: 768px) {
+  .gnss-footer-logos {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .gnss-footer-logo-divider {
+    display: none;
+  }
+
+  .gnss-footer-main {
+    grid-template-columns: 1fr;
+  }
+
+  .gnss-footer-organization,
+  .gnss-footer-explore {
+    border-left: none;
+    border-top: 1px solid rgba(56, 189, 248, 0.14);
+    padding-left: 4%;
+  }
+
+  .gnss-footer-explore-grid {
+    grid-template-columns: 1fr;
+  }
+}
